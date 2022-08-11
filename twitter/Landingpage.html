@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="landingpage.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>twitter</title>
+  <script src="https://kit.fontawesome.com/dad116fe96.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../SQI/WEB development/BOOTSTRAP/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container-fluid p-0  over-p">
+    <div class="row flex-column-reverse flex-md-row">
+      <div class="col-md-7">
+        <div class="d-flex justify-content-center align-items-center w-100" style="position: relative;">
+          <img src="twitterbgimg_1302x955.png" alt="" class="w-100" style="height: 91vh;">
+          <div class="" style="position: absolute;">
+            <i class="fa-brands fa-twitter" id="twitter-icon"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5  d-flex  align-items-center auto">
+        <div class="mmaut">
+          <div>
+            <i class="fa-brands fa-twitter" id="twitter-icon-1"></i>
+          </div>
+          <p class="p-happening">Happening now</p>
+          <p class="p-join">Join Twitter today</p>
+          <button type="button" class="btn btn-light px-5 rounded-pill btn-outline-secondary btn-white">
+            <div class="d-flex px-3">
+              <div class="icon-google">
+                <svg viewBox="0 0 48 48" class="LgbsSe-Bz112c">
+                  <g>
+                    <path fill="#EA4335"
+                      d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z">
+                    </path>
+                    <path fill="#4285F4"
+                      d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z">
+                    </path>
+                    <path fill="#FBBC05"
+                      d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z">
+                    </path>
+                    <path fill="#34A853"
+                      d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z">
+                    </path>
+                    <path fill="none" d="M0 0h48v48H0z"></path>
+                  </g>
+                </svg>
+              </div>
+              <span class="sign-google mt-1 ms-2">Sign up with Google</span>
+            </div>
+          </button> <br>
+          <button type="button" class="btn btn-light px-5 mt-3 rounded-pill btn-outline-secondary btn-white">
+            <div class="d-flex px-3">
+              <div class="icon-mac">
+                <i class="fa-brands fa-apple" id="apple"></i>
+              </div>
+              <span class="sign-apple  ms-2">Sign up with Apple</span>
+            </div>
+          </button>
+          <div style="display: flex;">
+            <hr style="width: 25%;"><span class="mt-1" style="font-size: 15px;">or</span>
+            <hr style="width: 25%;">
+          </div>
+          <!-- <button type="button" class="btn btn-primary px-4 mt-3 rounded-pill data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <div class="d-flex px-3">
+                            <span class="sign-email  ms-2">Sign up with phone or email</span>
+                        </div>
+                    </button> -->
+          <button type="button" class="btn btn-primary px-4  rounded-pill" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">
+            <div class="d-flex px-3">
+              <span class="sign-email  ms-2">Sign up with phone or email</span>
+            </div>
+          </button>
+          <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog">
+              <div class="modal-content rounded rounded-4 w-100">
+                <div class="d-flex mt-3 ms-3">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="mx-auto"><i class="fa-brands fa-twitter" id="ticon-modal"></i></div>
+                </div>
+                <div class=" px-5 modal-body rounded rounded-4 bg-white">
+                  <div class="mt-3"><span class="create-account">Create your account</span></div>
+                  <div class="form-floating mb-3">
+                    <input type="name" class="form-control mt-4" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Name</label>
+                  </div>
+                  <div class="form-floating">
+                    <input type="Phone number" class="form-control mt-4" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Phone</label>
+                  </div>
+                  <span class="use-email mt-3">Use email instead</span> <br><br>
+                  <div>
+                    <h5 class="p-date">Date of birth</h5>
+                    <p class="p-This">This will not be shown publicly. Confirm your own age, even if this account is for
+                      a business, a pet, or something else.</p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="form-floating w-50">
+                      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected></option>
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="4">November</option>
+                        <option value="4">December</option>
+                      </select>
+                      <label for="floatingSelect">Month</label>
+                    </div>
+                    <div class="form-floating ms-3">
+                      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                      </select>
+                      <label for="floatingSelect">Day</label>
+                    </div>
+                    <div class="form-floating ms-3 w-25">
+                      <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected></option>
+                        <option value="1">2000</option>
+                        <option value="2">2001</option>
+                        <option value="3">2002</option>
+                        <option value="4">2003</option>
+                        <option value="5">2004</option>
+                        <option value="6">2005</option>
+                        <option value="7">2006</option>
+                        <option value="8">2007</option>
+                        <option value="9">2008</option>
+                        <option value="10">2009</option>
+                        <option value="11">2010</option>
+                        <option value="12">2011</option>
+                        <option value="13">2012</option>
+                      </select>
+                      <label for="floatingSelect">Year</label>
+                    </div>
+                  </div>
+                  <div class="mt-5"><button type="button" class="btn btn-secondary w-100 mt-5 py-2 rounded-pill"><span
+                        class="mt-5 next">Next</span></button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="by-signing">
+            By signing up, you agree to the <span class="decoration">Terms of Service</span> and <span
+              class="decoration">Privacy <br> Policy</span>, including <span class="decoration">Cookie Use.</span>
+          </p>
+          <div class="mt-5">
+            <span class="already">Already have an account?</span>
+          </div>
+          <!-- <button type="button" class="btn btn-light btn-outline-secondary px-5 mt-3 rounded-pill">
+                        <div class="d-flex px-4">
+                            <span class="sign-in  mx-5">Sign in</span>
+                        </div>
+                    </button> -->
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-light btn-outline-secondary px-5 mt-3 rounded-pill"
+            data-bs-toggle="modal" data-bs-target="#exampleModalToggle">
+            <div class="d-flex px-4">
+              <span class="sign-in  mx-5">Sign in</span>
+            </div>
+          </button>
+
+          <!-- Modal -->
+          <!-- <div class="modal fade bg-secondary" id="exampleModalb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded rounded-4 w-100">
+      <div class="d-flex mt-3 ">
+        <button type="button" class="btn-close ms-3" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="mx-auto"><i class="fa-brands fa-twitter" id="ticon-modal"></i></div>
+       </div>
+
+      <div class="modal-body">
+        <div class="container w-75">
+            <div class="mt-3"><span class="create-account">Sign in to Twitter</span></div>
+            <button type="button" class="btn btn-light px-5 w-100 rounded-pill btn-outline-secondary btn-white">
+                <div class="d-flex px-3">
+                    <div class="icon-google">
+                        <svg viewBox="0 0 48 48" class="LgbsSe-Bz112c"><g><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"></path><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"></path><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"></path><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"></path><path fill="none" d="M0 0h48v48H0z"></path></g></svg>
+                    </div>
+                    <span class="sign-google mt-1 ms-2">Sign up with Google</span>
+                </div>
+            </button> <br>
+            <button type="button" class="btn btn-light px-5 w-100 mt-3 rounded-pill btn-outline-secondary btn-white">
+                <div class="d-flex px-3">
+                    <div class="icon-mac">
+                        <i class="fa-brands fa-apple" id="apple"></i>
+                    </div>
+                    <span class="sign-apple  ms-2">Sign up with Apple</span>
+                </div>
+            </button>
+            <div style="display: flex;"><hr style="width: 47%;"><span class="mt-1" style="font-size: 15px;">or</span><hr style="width: 47%;"></div>
+            <div class="form-floating mb-3">
+                <input type="name" class="form-control mt-1" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Phone, email, or username</label>
+              </div>
+            <div class=""><button type="button" class="btn btn-dark w-100  py-2 rounded-pill"><span class="next-2">Next</span></button></div>
+            <div class=""><button type="button" class="btn btn-light btn-outline-secondary btn-white w-100 mt-3  py-2 rounded-pill"><span class="next-3">Forgot password?</span></button></div>
+            <p class="dont-have mt-5 mb-5">
+                Don't have an account? <span class="decoration">Sign up</span>
+            </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+          <div class="modal fade bg-secondary" id="exampleModalToggle" aria-hidden="true"
+            aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content rounded rounded-4 w-100">
+                <div class="d-flex mt-3 ">
+                  <button type="button" class="btn-close ms-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="mx-auto"><i class="fa-brands fa-twitter" id="ticon-modal"></i></div>
+                  <!-- <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+                </div>
+
+                <div class="modal-body">
+                  <div class="modal-body">
+                    <div class="container w-75">
+                      <div class="mt-3"><span class="create-account">Sign in to Twitter</span></div>
+                      <button type="button"
+                        class="btn btn-light px-5 w-100 rounded-pill btn-outline-secondary btn-white">
+                        <div class="d-flex px-3">
+                          <div class="icon-google">
+                            <svg viewBox="0 0 48 48" class="LgbsSe-Bz112c">
+                              <g>
+                                <path fill="#EA4335"
+                                  d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z">
+                                </path>
+                                <path fill="#4285F4"
+                                  d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z">
+                                </path>
+                                <path fill="#FBBC05"
+                                  d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z">
+                                </path>
+                                <path fill="#34A853"
+                                  d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z">
+                                </path>
+                                <path fill="none" d="M0 0h48v48H0z"></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <span class="sign-google mt-1 ms-2">Sign up with Google</span>
+                        </div>
+                      </button> <br>
+                      <button type="button"
+                        class="btn btn-light px-5 w-100 mt-3 rounded-pill btn-outline-secondary btn-white">
+                        <div class="d-flex px-3">
+                          <div class="icon-mac">
+                            <i class="fa-brands fa-apple" id="apple"></i>
+                          </div>
+                          <span class="sign-apple  ms-2">Sign up with Apple</span>
+                        </div>
+                      </button>
+                      <div style="display: flex;">
+                        <hr style="width: 47%;"><span class="mt-1" style="font-size: 15px;">or</span>
+                        <hr style="width: 47%;">
+                      </div>
+                      <div class="form-floating mb-3">
+                        <input type="name" class="form-control mt-1" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Phone, email, or username</label>
+                      </div>
+                      <div class=""><button type="button" class="btn btn-dark w-100 py-2 rounded-pill"
+                          data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"><span
+                            class="next-2">Next</span></button></div>
+                      <!-- <button class="btn btn-primary">Open second modal</button> -->
+                      <div class=""><button type="button"
+                          class="btn btn-light btn-outline-secondary btn-white w-100 mt-3  py-2 rounded-pill"><span
+                            class="next-3">Forgot password?</span></button></div>
+                      <p class="dont-have mt-5 mb-5">
+                        Don't have an account? <span class="decoration">Sign up</span>
+                      </p>
+
+
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="modal-footer">
+          
+        </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="modal fade bg-secondary" id="exampleModalToggle2" aria-hidden="true"
+            aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content rounded rounded-4 w-100">
+                <div class="d-flex mt-3 ">
+                  <button type="button" class="btn-close ms-3" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="mx-auto"><i class="fa-brands fa-twitter" id="ticon-modal"></i></div>
+                </div>
+                <!-- <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div> -->
+                <div class="modal-body">
+                  <div class="container w-100">
+                    <div class="mt-3"><span class="create-account">Enter your password</span></div>
+                    <div class="form-floating mt-4 mb-3">
+                      <input type="name" class="form-control mt-1" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput">Username</label>
+                    </div>
+                    <div class="form-floating mt-4 mb-3">
+                      <input type="password" class="form-control mt-1" id="floatingInput"
+                        placeholder="name@example.com">
+                      <label for="floatingInput">Password</label>
+                    </div>
+                    <p class="forgot-p mb-5">
+                      <span class="decoration-2 mb-5">Forgot password?</span>
+                    </p>
+                    <div class="mt-5 pt-5"><button type="button"
+                        class="btn btn-secondary w-100 mt-5 py-2 rounded-pill"><span class="next-21"><a
+                            href="Home.html">Log in</a></span></button></div>
+                    <p class="dont-have mt-2">
+                      Don't have an account? <span class="decoration">Sign up</span>
+                    </p>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="fot">
+      <span class=" ms-4 about-span">About</span>
+      <span class=" ms-4 about-span">Help Center</span>
+      <span class=" ms-4 about-span">Terms of Service</span>
+      <span class=" ms-4 about-span">Privacy Policy</span>
+      <span class=" ms-4 about-span">Cookie Policy</span>
+      <span class=" ms-4 about-span">Accessibility</span>
+      <span class=" ms-4 about-span">Ads info</span>
+      <span class=" ms-4 about-span">Blog</span>
+      <span class=" ms-4 about-span">Status</span>
+      <span class=" ms-4 about-span">Careers</span>
+      <span class=" ms-4 about-span">Brand Resources</span>
+      <span class=" ms-4 about-span">Advertising</span>
+      <span class=" ms-4 about-span">Marketing</span>
+      <span class=" ms-4 about-span">Twitter for Business</span>
+      <span class=" ms-4 about-span">Developers</span>
+      <span class=" ms-4 about-span">Directory</span>
+      <span class=" ms-4 about-span">Settings</span>
+    </div>
+  </div>
+
+  
+</body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
