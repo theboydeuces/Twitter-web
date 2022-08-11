@@ -1,0 +1,173 @@
+/* *{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} */
+body{
+    overflow-x: hidden;
+}
+#twitter-icon{
+    font-size: 2000%;
+    color: white;
+}
+#twitter-icon-1{
+    font-size: 50px;
+    color: rgb(29, 155, 240);
+}
+.p-happening{
+    font-size: 80px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: semi-expanded;
+    
+}
+.p-join{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.icon-google{
+    width: 14.06px; 
+    height: 7.38px;
+}
+.icon-mac{
+    width: 14.06px; 
+    height: 7.38px;
+}
+.sign-google{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #3c4043;
+}
+.sign-apple{
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 700;
+    color: black;
+}
+.sign-email{
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 700;
+    color: white;
+}
+#ticon-modal{
+    color: rgb(29, 155, 240);
+    font-size: 30px;
+}
+.create-account{
+    font-size: 31px;
+    font-weight: 700;
+}
+.cre{
+    /* height: 650px; */
+    width: 500px !important;
+}
+.use-email{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(29, 155, 240);
+    float: right;
+}
+.use-email:hover{
+    text-decoration: underline;
+}
+.p-date{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.p-This{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    color: grey;
+}
+.next{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.next-2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.next-21{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.next-3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.dont-have{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+    font-size: 16px;
+    font-weight: 500;
+}
+.forgot-p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+    font-size: 12px;
+    font-weight: 500;
+}
+#apple{
+    color: black;
+    font-size: 20px;
+}
+.by-signing{
+    font-size: 11px;
+}
+.decoration{
+    color:  rgb(29, 155, 240);
+}
+.decoration:hover{
+    text-decoration: underline;
+}
+.decoration-2{
+    color:  rgb(29, 155, 240);
+}
+.decoration-2:hover{
+    text-decoration: underline;
+}
+.already{
+    font-weight: 700;
+    font-size: 20px;
+}
+.sign-in{
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 700;
+    color: rgb(29, 155, 240);
+}
+.about-span{
+    font-size: 13px;
+    font-weight: 600;
+}
+.about-span:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none !important;
+}
+@media (max-width:760px) { .auto{
+    margin-left: 15% !important;
+    /* margin-right: auto !important; */
+}
+.mmaut{
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+}
+.p-happening{
+    font-size: 60px ;
+    font-weight: 800;
+}
+    
+}
+@media (max-width:350px) {
+
+}
+.fot{
+    width: 100%;
+}
